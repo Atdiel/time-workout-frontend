@@ -11,7 +11,7 @@ export default function HomeSc(){
             <ScrollView showsVerticalScrollIndicator={false}>
             <LinearGradient colors={['#23529E','#44B115']} locations={[0.08,0.65]}>
                 <View style={{height: ancho}}>
-                    <View style={styles.cabezaView}><Text style={styles.titulo}>TIME WORKOUT</Text></View>
+                    <View style={styles.cabezaView}><Text style={styles.titulo}>Username</Text></View>
                     <Image
                     style={styles.cabezaImagen}
                     source={require('../assets/b2.png')}

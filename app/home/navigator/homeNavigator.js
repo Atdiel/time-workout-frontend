@@ -3,6 +3,8 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { MaterialIcons } from "@expo/vector-icons";
 
 const Tab = createBottomTabNavigator();
+
+// Routes
 import RecordNav from "../../record/navigator/recordNavigator";
 import RoutineNav from "../../routine/navigator/routineNavigator";
 import Home from "../homeScreen";
@@ -14,14 +16,14 @@ export default function HomeNav(props) {
   return (
     <Tab.Navigator
       initialRouteName="Home"
-      backBehavior="oder"
+      backBehavior="initialRoute"
       screenOptions={{ tabBarActiveTinColor: "#23529E" }}
     >
       <Tab.Screen
         name="RecordNav"
         component={RecordNav}
         options={{
-          tabBarLabel: "RecordNav",
+          tabBarLabel: "Record",
           headerShown: false,
           tabBarIcon: () => (
             <MaterialIcons name="alarm-on" size={30} color="#23529E" />
@@ -32,7 +34,7 @@ export default function HomeNav(props) {
         name="RoutineNav"
         component={RoutineNav}
         options={{
-          tabBarLabel: "RoutineNav",
+          tabBarLabel: "Routine",
           headerShown: false,
           tabBarIcon: () => (
             <MaterialIcons name="timer" size={30} color="#23529E" />

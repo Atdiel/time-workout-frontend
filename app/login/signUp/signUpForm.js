@@ -12,7 +12,7 @@ import {
 import { StackActions } from "@react-navigation/native";
 import DateTimePicker from "@react-native-community/datetimepicker";
 import FontAwesome from "react-native-vector-icons/FontAwesome";
-import Icon from "react-native-ico-flags";
+//import Icon from "react-native-ico-flags";
 
 //* imports for FORMS
 import { Formik } from "formik";
@@ -211,7 +211,7 @@ export default function SignUpForm({ navigation }) {
                   </Text>
                 </>
                 <>
-                  <Icon name={chooseIcon} />
+                  {/*<Icon name={chooseIcon} />*/}
                   <Text style={[styles.calendarText, { marginLeft: 10 }]}>
                     {chooseData}
                   </Text>

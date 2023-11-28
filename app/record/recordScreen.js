@@ -23,7 +23,7 @@ export default function RecordSc({navigation}){
                     <Text style={styles.subtitulo2}>Records</Text>
 
                     <TouchableOpacity style={styles.segundoContenidoBoton}
-                    onPress={() => navigation.navigate('VerRecord')}
+                    onPress={() => navigation.navigate('RecordDetail')}
                     >
                         <View style={{flexDirection: "row",}}>
                             <View style={styles.textInfo}>
@@ -38,7 +38,7 @@ export default function RecordSc({navigation}){
                         </View>
                     </TouchableOpacity>
                     <TouchableOpacity style={styles.segundoContenidoBoton}
-                    onPress={() => navigation.navigate('VerRecord')}
+                    onPress={() => navigation.navigate('RecordDetail')}
                     >
                         <View style={{flexDirection: "row",}}>
                             <View style={styles.textInfo}>
@@ -53,7 +53,7 @@ export default function RecordSc({navigation}){
                         </View>
                     </TouchableOpacity>
                     <TouchableOpacity style={styles.segundoContenidoBoton}
-                    onPress={() => navigation.navigate('VerRecord')}
+                    onPress={() => navigation.navigate('RecordDetail')}
                     >
                         <View style={{flexDirection: "row",}}>
                             <View style={styles.textInfo}>
@@ -68,7 +68,7 @@ export default function RecordSc({navigation}){
                         </View>
                     </TouchableOpacity>
                     <TouchableOpacity style={styles.segundoContenidoBoton}
-                    onPress={() => navigation.navigate('VerRecord')}
+                    onPress={() => navigation.navigate('RecordDetail')}
                     >
                         <View style={{flexDirection: "row",}}>
                             <View style={styles.textInfo}>

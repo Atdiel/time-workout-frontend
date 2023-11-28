@@ -9,7 +9,7 @@ import {
 } from "react-native";
 
 //* icon
-import Icon from "react-native-ico-flags";
+//import Icon from "react-native-ico-flags";
 
 const NATIONS = ["MX", "US", "CO", "BR", "AR"];
 const NATIONALITY = [
@@ -68,7 +68,7 @@ export default function NationalityModalPicker(props) {
           style={styles.option}
           onPress={() => onPressItem(nation)}
         >
-          <Icon name={ICONS[index]} />
+          {/*<Icon name={ICONS[index]} />*/}
           <Text style={styles.text}>{nation}</Text>
         </TouchableOpacity>
       </View>
